@@ -1,0 +1,79 @@
+body
+{
+	background: #232323;
+	margin: 0;
+	font-family: "Courier";
+}
+.square
+{
+	width:30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background 0.6s;
+
+}
+#container
+{
+	max-width: 600px;
+	margin: 20px auto;        /*to make container center*/
+}
+h1
+{
+	color:  white;
+	text-align: center;
+	background: steelblue;
+	margin: 0;
+	text-transform: uppercase;
+	line-height: 1.1;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+}
+
+#colorDisplay
+{
+	font-size: 200%;     /*it is 200% of h1 font size*/
+}
+
+
+#stripe
+{
+	background: white;
+	text-align: center;
+	height: 30px;
+
+}
+
+.selected
+{
+	color: white;
+	background: steelblue;
+}
+
+button
+{
+	border: none;
+	background: none;
+	height: 100%;	
+	font-family: "Courier";
+	font-weight: 900;
+	color: steelblue;
+	text-transform: uppercase; 
+	font-size: inherit;
+	letter-spacing: 1px;
+	transition: all 0.3s;
+	outline: none;
+}
+#message
+{
+	display: inline-block;
+	width:20%;
+}
+
+button:hover
+{
+	color: white;
+	background: steelblue;
+}
